@@ -1,0 +1,139 @@
+@color-red: red;
+@global-width: 3840px;
+@global-height: 2160px;
+/*chrome--------------------------------------------start*/
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: rgb(201, 201, 202);
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: rgb(162, 162, 163);
+}
+
+/*chrome--------------------------------------------end*/
+/*IE--------------------------------------------start*/
+* {
+  /*三角箭头的颜色*/
+  scrollbar-arrow-color: #c0c4cc;
+  /*滚动条滑块按钮的颜色*/
+  scrollbar-face-color: #A2A2A3;
+  /*滚动条整体颜色*/
+  scrollbar-highlight-color: #A2A2A3;
+  /*滚动条阴影*/
+  scrollbar-shadow-color: #A2A2A3;
+  /*滚动条轨道颜色*/
+  scrollbar-track-color: #f4f4f5;
+  /*滚动条3d亮色阴影边框的外观颜色——左边和上边的阴影色*/
+  scrollbar-3dlight-color: #A2A2A3;
+  /*滚动条3d暗色阴影边框的外观颜色——右边和下边的阴影色*/
+  scrollbar-darkshadow-color: #A2A2A3;
+  /*滚动条基准颜色*/
+  scrollbar-base-color: #f4f4f5;
+}
+
+/*IE--------------------------------------------end*/
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Microsoft Yahei";
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.g-border-top-none {
+  border-top: none !important;
+}
+
+.g-border-bottom-none {
+  border-bottom: none !important;
+}
+
+.g-border-left-none {
+  border-left: none !important;
+}
+
+.g-border-right-none {
+  border-right: none !important;
+}
+
+.g-text-left {
+  text-align: left !important;
+}
+
+.g-text-right {
+  text-align: right !important;
+}
+
+.g-font-normal {
+  font-style: normal !important;
+}
+
+.g-font-weight {
+  font-weight: bold !important;
+}
+
+.g-block {
+  display: block !important;
+}
+
+.g-inline-block {
+  display: inline-block !important;
+}
+
+//溢出文本显示省略号
+.g-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  display: inline-block;
+}
+
+.g-overflow-line-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.g-border-box {
+  box-sizing: border-box !important;
+}
+
+.g-content-box {
+  box-sizing: content-box !important;
+}
+
+.g-cursor {
+  cursor: pointer;
+}
+
+.g-flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
